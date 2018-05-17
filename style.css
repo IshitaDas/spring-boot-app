@@ -1,0 +1,345 @@
+body, html {
+    height:100%;
+    margin:0;
+	padding:0;
+	font-family:verdana;
+}
+
+#main{  
+  background-image:url("/images/Penguins.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+     
+}
+
+.backimg{
+	width:100%;
+	height:100%;
+	background-color:#d2ca83;
+	opacity:0.6;	
+}
+
+header{	
+  position:absolute;
+  top:90px;
+  left:450px;
+  width:500px;
+  height:75px;
+  /*margin:auto;  */
+  font-family:verdana;
+  text-align:center;
+  color:white;
+  background-color:#eeb865;
+}
+
+.btn-primary{
+	padding:6px;
+	width:70px;
+	background-color:#bdb19f;
+}
+
+.btn-primary:hover{
+	background-color:#e3caa3;
+}
+
+.shortFields{
+	width:130px;
+	height:16px;
+	margin:10px;
+	padding:8px;
+	border: 1px solid #8d8b76;
+	border-radius:8px;
+}
+
+.midwidthFields{
+	width:216px;
+	height:16px;
+	margin:10px;
+	padding:8px;
+	border: 1px solid #8d8b76;
+	border-radius:8px;
+}
+
+.largeFields{
+	width:476px;
+	height:16px;
+	margin:10px;
+	padding:8px;
+	border: 1px solid #8d8b76;
+	border-radius:8px;
+}
+
+/* --- Login Page Start --- */
+#loginBlock{
+	position:absolute;
+    top:190px;
+    left:515px;
+	width:350px;
+	height:auto;
+	/*margin:90px 525px;*/
+	padding:10px;
+	background-color:#FFFACD;
+	text-align:center;
+}
+
+#login{
+	width:200px;
+	margin:auto;
+}
+
+.fields{
+	width:80%;
+	height:16px;
+	margin:10px;
+	padding:8px;
+	border: 1px solid #8d8b76;
+	border-radius:8px;
+}
+
+/* --- Login Page End --- */
+
+/* --- Registration Page Start --- */
+
+#loginRegister{
+	position:absolute;
+    top:190px;
+    left:414px;
+	width:550px;
+	height:auto;
+	/*margin:90px 525px;*/
+	padding:10px;
+	background-color:#FFFACD;
+	text-align:center;
+}
+
+/* --- Registration Page Start --- */
+
+/* --- Pwd Reset Page Start --- */
+
+#passwordReset{
+	position:absolute;
+    top:190px;
+    left:500px;
+	width:380px;
+	height:auto;
+	/*margin:90px 525px;*/
+	padding:10px;
+	background-color:#FFFACD;
+	text-align:center;
+}
+
+/* --- Pwd Reset Page End --- */
+
+/* --- Home Page Start --- */
+#loginHeader{
+	position:absolute;
+    top:50px;
+	width:100%;
+	height:auto;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#eeb865;		
+}
+
+#HeaderLeft{
+	width:60%;
+	float:left;
+	margin-left:10px;
+	text-align:left;
+	font-color:white;
+}
+
+#HeaderRight{
+	width:20%;
+	float:left;
+	text-align:right;
+	font-color:white;
+}
+
+#section{
+	width:99%;
+	height:auto;
+	padding-top:5px;	
+	background-color:#fdb478;	
+	margin:auto;
+}
+
+#section h1{
+	font-size:20px;
+}
+
+#sectionBody{
+	width:500px;
+	height:auto;
+   /* margin:10px;*/
+   padding:5px;
+}
+
+#sectionBody table{
+	border:0px;
+	/*border-collapse:collapse;*/
+}
+
+#sectionBody th,td{
+	padding:5px;
+}
+
+#sectionBody td:hover{
+	background-color:#bac55d;
+}
+
+#sectionBody tr:nth-child(even){
+	background-color:#9DAE11;
+}
+
+#sectionBody th{
+	background-color:#d4d6c3;
+}
+
+#Notification{
+	position:absolute;
+    top:110px;
+	left:20px;
+	width:600px;
+	height:auto;
+	padding-left:20px;
+	background-color:#FFFACD;
+}
+
+#CurrentSection{
+	position:absolute;
+    top:110px;
+	left:780px;
+	width:600px;
+	height:auto;
+	padding-left:20px;
+	background-color:#FFFACD;
+}
+
+#PastSection{
+	position:absolute;
+    top:295px;
+	left:20px;
+	width:600px;
+	height:auto;
+	padding-left:20px;
+	background-color:#FFFACD;
+}
+
+#FutureSection{
+	position:absolute;
+    top:295px;
+	left:780px;
+	width:600px;
+	height:auto;
+	padding-left:20px;
+	background-color:#FFFACD;
+}
+
+#OptionsBar{
+    position:absolute;
+    top:500px;
+	left:100px;
+	/*background-color:#FFFACD;*/
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	float:left;
+    background: #FFDB00; /* For browsers that do not support gradients */
+    /*background: radial-gradient(red 95%, yellow 0%, orange 100%);  */
+	text-align:center;
+	font-size:20px;
+}
+
+.circle1 p{
+  margin-top:85px;
+}
+
+@keyframes spin1 {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.circle1:hover {
+	width: 200px;
+	height: 200px;
+	
+	background: #f9eb97; /* fallback for old browsers*/
+	background-image: -moz-radial-gradient(150px 150px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(150px 150px, circle cover, yellow, orange);
+	background-image: radial-gradient(150px 150px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	
+	animation-name: spin1; 
+	animation-duration: 1s; /* 3 seconds */	
+	animation-iteration-count: 1; 
+	animation-timing-function: ease-in-out;
+	
+	/*
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+	*/
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+	float:left;
+    background: #0082c8; /* For browsers that do not support gradients */
+   /* background: radial-gradient(#0082c8, #77caf6 , #0082c8); */
+    text-align:center;
+	font-size:20px;
+}
+
+.circle2 p{
+  margin-top:85px;
+}
+
+@keyframes spin2 {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+.circle2:hover {
+	width: 200px;
+	height: 200px;
+	
+	background: #4fafe3; /* fallback for old browsers*/
+	background-image: -moz-radial-gradient(150px 150px 45deg, circle cover, #0082c8, #77caf6, #0082c8 );
+    background: -webkit-radial-gradient(150px 150px, circle cover, #77caf6, #0082c8); /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(150px 150px, circle cover, #0082c8, #77caf6, #0082c8 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	animation-name: spin2; 
+	animation-duration: 1s; /* 3 seconds */
+	animation-iteration-count: 1; 
+	animation-timing-function: ease-in-out;
+	
+	/*
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+	*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    padding: 20px;
+}
+
+/* --- Home Page End --- */
+
